@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="18" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="18" parallel="tests" name="Ten(failed)">
+    <classes>
+      <class name="csc_automation.testsites.findPin_10_Method">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="flush"/>
+          <include name="check"/>
+          <include name="getReport"/>
+          <include name="setReport"/>
+        </methods>
+      </class> <!-- csc_automation.testsites.findPin_10_Method -->
+    </classes>
+  </test> <!-- Ten(failed) -->
+  <test thread-count="18" parallel="tests" name="Eleven(failed)">
+    <classes>
+      <class name="csc_automation.testsites.findPin_11_Method">
+        <methods>
+          <include name="check"/>
+          <include name="browserSetUp"/>
+          <include name="flush"/>
+          <include name="getReport"/>
+          <include name="setReport"/>
+        </methods>
+      </class> <!-- csc_automation.testsites.findPin_11_Method -->
+    </classes>
+  </test> <!-- Eleven(failed) -->
+</suite> <!-- Failed suite [Suite] -->

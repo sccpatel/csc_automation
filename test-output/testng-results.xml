@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-12T01:02:03 IST" name="Suite" finished-at="2023-11-12T04:16:45 IST" duration-ms="11681538">
+    <groups>
+    </groups>
+    <test started-at="2023-11-12T01:02:03 IST" name="Two" finished-at="2023-11-12T04:15:37 IST" duration-ms="11613597">
+      <class name="csc_automation.testsites.findPin_2_Method">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:csc_automation.testsites.findPin_2_Method@7cc0cdad]" started-at="2023-11-12T01:02:03 IST" name="setReport" finished-at="2023-11-12T01:02:04 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="browserSetUp(java.lang.reflect.Method)[pri:0, instance:csc_automation.testsites.findPin_2_Method@7cc0cdad]" started-at="2023-11-12T01:02:04 IST" name="browserSetUp" finished-at="2023-11-12T01:02:10 IST" duration-ms="6258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void csc_automation.testsites.findPin_2_Method.check()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="check()[pri:0, instance:csc_automation.testsites.findPin_2_Method@7cc0cdad]" started-at="2023-11-12T01:02:10 IST" name="check" finished-at="2023-11-12T04:15:35 IST" duration-ms="11604842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:csc_automation.testsites.findPin_2_Method@7cc0cdad]" started-at="2023-11-12T04:15:35 IST" name="getReport" finished-at="2023-11-12T04:15:35 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check status=SUCCESS method=findPin_2_Method.check()[pri:0, instance:csc_automation.testsites.findPin_2_Method@7cc0cdad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:csc_automation.testsites.findPin_2_Method@7cc0cdad]" started-at="2023-11-12T04:15:35 IST" name="flush" finished-at="2023-11-12T04:15:37 IST" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- csc_automation.testsites.findPin_2_Method -->
+    </test> <!-- Two -->
+    <test started-at="2023-11-12T01:02:03 IST" name="One" finished-at="2023-11-12T04:16:45 IST" duration-ms="11681538">
+      <class name="csc_automation.testsites.findPin_1_Method">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:csc_automation.testsites.findPin_1_Method@7e07db1f]" started-at="2023-11-12T01:02:03 IST" name="setReport" finished-at="2023-11-12T01:02:04 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="browserSetUp(java.lang.reflect.Method)[pri:0, instance:csc_automation.testsites.findPin_1_Method@7e07db1f]" started-at="2023-11-12T01:02:04 IST" name="browserSetUp" finished-at="2023-11-12T01:02:23 IST" duration-ms="19612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void csc_automation.testsites.findPin_1_Method.check()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="check()[pri:0, instance:csc_automation.testsites.findPin_1_Method@7e07db1f]" started-at="2023-11-12T01:02:23 IST" name="check" finished-at="2023-11-12T04:16:44 IST" duration-ms="11660995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="getReport(org.testng.ITestResult)[pri:0, instance:csc_automation.testsites.findPin_1_Method@7e07db1f]" started-at="2023-11-12T04:16:44 IST" name="getReport" finished-at="2023-11-12T04:16:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check status=SUCCESS method=findPin_1_Method.check()[pri:0, instance:csc_automation.testsites.findPin_1_Method@7e07db1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:csc_automation.testsites.findPin_1_Method@7e07db1f]" started-at="2023-11-12T04:16:44 IST" name="flush" finished-at="2023-11-12T04:16:45 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- csc_automation.testsites.findPin_1_Method -->
+    </test> <!-- One -->
+  </suite> <!-- Suite -->
+</testng-results>

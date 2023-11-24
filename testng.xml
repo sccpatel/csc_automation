@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="18" parallel="tests">
+  	<test thread-count="18" name="One">
+		<classes>
+			<class name="csc_automation.testsites.findPin_1_Method" />
+		</classes>
+	</test>
+	 
+	<test thread-count="18" name="Two">
+		<classes>
+			<class name="csc_automation.testsites.findPin_2_Method" />
+		</classes>
+	</test>
+<!--	<test thread-count="18" name="Three">
+		<classes>
+			<class name="csc_automation.testsites.findPin_3_Method" />
+		</classes>
+	</test>
+
+	<test thread-count="18" name="Four">
+		<classes>
+			<class name="csc_automation.testsites.findPin_4_Method" />
+		</classes>
+	</test>
+
+	<test thread-count="18" name="Five">
+		<classes>
+			<class name="csc_automation.testsites.findPin_5_Method" />
+		</classes>
+	</test>
+
+	<test thread-count="18" name="Six">
+		<classes>
+			<class name="csc_automation.testsites.findPin_6_Method" />
+		</classes>
+	</test>
+
+	<test thread-count="18" name="Seven">
+		<classes>
+			<class name="csc_automation.testsites.findPin_7_Method" />
+		</classes>
+	</test>
+
+	<test thread-count="18" name="Eight">
+		<classes>
+			<class name="csc_automation.testsites.findPin_8_Method" />
+		</classes>
+	</test>
+
+	<test thread-count="18" name="Nine">
+		<classes>
+			<class name="csc_automation.testsites.findPin_9_Method" />
+		</classes>
+	</test>
+
+	<test thread-count="18" name="Ten">
+		<classes>
+			<class name="csc_automation.testsites.findPin_10_Method" />
+		</classes>
+	</test>
+
+	<test thread-count="18" name="Eleven">
+		<classes>
+			<class name="csc_automation.testsites.findPin_11_Method" />
+		</classes>
+	</test>
+
+ -->	
+
+</suite> <!-- Suite -->
+ 
